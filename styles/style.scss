@@ -1,0 +1,13 @@
+@import './varriables';
+@import './header';
+
+.contact button {
+    background: $primaryBtn;
+}
+
+.contact {
+    // @include flexCenter(row, lightyellow);
+    @extend header;
+    background-color: lightcoral;
+    width: 100% - 20%;
+}
